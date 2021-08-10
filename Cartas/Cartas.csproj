@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C223C71-F63E-42CB-8DB5-523DCC8661AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cartas</RootNamespace>
+    <AssemblyName>Cartas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cartas.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\2c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\2e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\2o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\2p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\4c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\4e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\4o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\4p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\5c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\5e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\5o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\5p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\6c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\6e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\6o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\6p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\7c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\7e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\7o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\7p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\10c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\10e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\10o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\10p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\11c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\11e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\11o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\11p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\12c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\12e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\12o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\12p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\verso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\C12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\E12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\O12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\P12.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

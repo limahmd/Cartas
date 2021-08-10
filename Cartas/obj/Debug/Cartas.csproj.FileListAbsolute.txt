@@ -1,0 +1,10 @@
+C:\Users\Lima\Desktop\Cartas\Cartas\bin\Debug\Cartas.exe.config
+C:\Users\Lima\Desktop\Cartas\Cartas\bin\Debug\Cartas.exe
+C:\Users\Lima\Desktop\Cartas\Cartas\bin\Debug\Cartas.pdb
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.csproj.AssemblyReference.cache
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.Form1.resources
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.Properties.Resources.resources
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.csproj.GenerateResource.cache
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.csproj.CoreCompileInputs.cache
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.exe
+C:\Users\Lima\Desktop\Cartas\Cartas\obj\Debug\Cartas.pdb
